@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header id="navbar" class="bg-red-900 w-full fixed top-0 h-20 flex justify-end items-center border-b-2 border-gray-600 z-10">
+        <ul class="flex space-x-4 mr-4">
+            <li><a class="font-semibold text-2xl text-white hover:text-white hover:bg-gray-600 px-2 py-2 transition-all" href="#welcome-section">About</a></li>
+            <li><a class="font-semibold text-2xl text-white hover:text-white hover:bg-gray-600 px-2 py-2 transition-all" href="#projects">Work</a></li>
+            <li><a class="font-semibold text-2xl text-white hover:text-white hover:bg-gray-600 px-2 py-2 transition-all" href="#contact">Contact</a></li>
+          </ul>
+        </header>
+
+        <section id="welcome-section" class="h-screen flex flex-col justify-center items-center bg-gradient-to-l from-black to-gray-800 text-white mt-2">
+            <h1 class="text-6xl font-bold">Hey I am Subhan Siddique</h1>
+            <p class="text-3xl font-semibold italic top-0">a web developer</p>
+        </section>
+
+        <section id="projects" class="py-24 bg-indigo-900 text-center">
+            <h2 class="text-4xl font-bold text-white underline mb-16">These are some of my projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                <a href="https://www.google.com/" class="shadow-md rounded-md overflow-hidden transform hover:scale-105 transition-transform">
+                  <img class="h-96 w-full object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"/>
+                  <p class="text-xl py-4 bg-gray-700 text-white"> <span class="text-orange-600"> &lt; </span> Tribute Page <span class="text-orange-600"> /&gt;</span></p>
+                </a>
+                <a href="https://www.google.com/" class="shadow-md rounded-md overflow-hidden transform hover:scale-105 transition-transform">
+                  <img class="h-96 w-full object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="Project 2"/>
+                  <p class="text-xl py-4 bg-gray-700 text-white"> <span class="text-orange-600"> &lt; </span> Randome Quote Machine <span class="text-orange-600"> /&gt;</span></p>
+                </a>
+                <a href="https://www.google.com/" class="shadow-md rounded-md overflow-hidden transform hover:scale-105 transition-transform">
+                  <img class="h-96 w-full object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="Project 3"/>
+                  <p class="text-xl py-4 bg-gray-700 text-white"> <span class="text-orange-600"> &lt; </span> JavaScript Calculator <span class="text-orange-600"> /&gt;</span></p>
+                </a>
+                <a href="https://www.google.com/" class="shadow-md rounded-md overflow-hidden transform hover:scale-105 transition-transform">
+                  <img class="h-96 w-full object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="Project 4"/>
+                  <p class="text-xl py-4 bg-gray-700 text-white"> <span class="text-orange-600"> &lt; </span> Map Data Across the Globe <span class="text-orange-600"> /&gt;</span></p>
+                </a>
+                <a href="https://www.google.com/" class="shadow-md rounded-md overflow-hidden transform hover:scale-105 transition-transform">
+                  <img class="h-96 w-full object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="Project 5"/>
+                  <p class="text-xl py-4 bg-gray-700 text-white"> <span class="text-orange-600"> &lt; </span> Wikipedia Viewer <span class="text-orange-600"> /&gt;</span></p>
+                </a>
+                <a href="https://www.google.com/" class="shadow-md rounded-md overflow-hidden transform hover:scale-105 transition-transform">
+                  <img class="h-96 w-full object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="Project 6"/>
+                  <p class="text-xl py-4 bg-gray-700 text-white"> <span class="text-orange-600"> &lt; </span> Tic Tac Toe Game <span class="text-orange-600"> /&gt;</span></p>
+                </a>
+              </div>
+              <br>
+              <br>
+              <button href="http://127.0.0.1:5500/src/index.html#" class="bg-gray-700 hover:bg-red-900 text-white font-bold py-2 px-4 rounded">
+                Show All >
+              </button>
+            </section>
+
+            <section id="contact" class="h-screen bg-gray-700 flex flex-col items-center justify-center text-white border-b-4 border-red-900">
+                <div class="text-center">
+                  <h3 class="text-7xl font-semibold mb-4">Let's work together...</h3>
+                  <p class="italic text-xl">How do you take your coffee?</p>
+                </div>
+                <div class="mt-8 flex space-x-4">
+                  <a href=" https://www.facebook.com" class="text-2xl px-4 py-2 hover:translate-y-2 transition-transform">Facebook</a>
+                  <a href="https://www.youtube.com/" class="text-2xl px-4 py-2 hover:translate-y-2 transition-transform">Youtube</a>
+                  <a href="http://twitter.com/" class="text-2xl px-4 py-2 hover:translate-y-2 transition-transform">Twitter</a>
+                  <a href="https://{userid}.github.io/" class="text-2xl px-4 py-2 hover:translate-y-2 transition-transform">Github</a>
+                  <a href=" https://www.linkedin.com/" class="text-2xl px-4 py-2 hover:translate-y-2 transition-transform">LinkedIn</a>
+                </div>
+              </section>
+          
+              <footer class="h-24 bg-gray-700 flex items-center justify-around text-black">
+                <p class="text-lg text-white">**This is not my real Portfolio, just a project for Knowladge Strems.</p>
+                <a class="text-lg text-white" href="https://www.freecodecamp.org/" target="_blank">&copy; Created for Knowladge Strems</a>
+              </footer>
+</body>
+</html>
